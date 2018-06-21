@@ -39,7 +39,7 @@ public class DemoApplication {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        config.setAllowedOrigins(Collections.singletonList("https://still-ravine-79015.herokuapp.com"));
+        config.setAllowedOrigins(Collections.singletonList("https://bvk-achb.herokuapp.com"));
         config.setAllowedMethods(Collections.singletonList("*"));
         config.setAllowedHeaders(Collections.singletonList("*"));
         source.registerCorsConfiguration("/**", config);
